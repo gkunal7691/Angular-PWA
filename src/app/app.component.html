@@ -26,6 +26,6 @@
 </div>
 <br/>
 <br/>
-<button *ngIf="showButton" style="background-color: green;" (click)="addToHomeScreen()">Add to home Screen</button>
+<button *ngIf="showButton" style="background-color: green;cursor: pointer; color: white;" (click)="addToHomeScreen()">Add to home Screen</button>
 <div *ngIf="!showButton" style="color: green;" (click)="addToHomeScreen()">Button already added or you're on http protocol. </div>
 
