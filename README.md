@@ -1,28 +1,15 @@
 # PwaTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+## Steps to make you angular app PWA with add to home button.
 
-## Development server
+## Start from scratch.
+Note: App will only on https not on local.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Run command -> ng add @angular/pwa
+Manifest files are automatically generated, assets/icons automatically added. (we can manupulate it.)
 
-## Code scaffolding
+2. check app component html & app component ts. for Add to home button.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. github link -> https://github.com/gkunal7691/Angular-PWA
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Angular-PWA
+4. online app link -> https://pwa-test-fa673.web.app
